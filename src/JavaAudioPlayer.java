@@ -29,15 +29,21 @@ public class JavaAudioPlayer {
 
                 response = input.nextLine().toUpperCase();
 
-                switch(response){
-                    case "P" -> player.play();
-                    case "S" -> player.stop();
-                    case "R" -> player.reset();
-                    case "Q" -> {
+                switch(response) {
+                    case "P":
+                        player.play();
+                        break;
+                    case "S":
+                        player.stop();
+                        break;
+                    case "R":
+                        player.reset();
+                        break;
+                    case "Q":
                         player.close();
                         return;
-                    }
-                    default -> System.out.println("Invalid choice");
+                    default:
+                        System.out.println("Invalid choice");
                 }
             }
 
