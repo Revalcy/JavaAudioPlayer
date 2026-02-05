@@ -1,6 +1,6 @@
 # Java Terminal Audio Player
 
-A console-based audio player built using the Java APi Sound.
+A console-based audio player built using the Java API Sound.
 
 ## Features
 - Play
